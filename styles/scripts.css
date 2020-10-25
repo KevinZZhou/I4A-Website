@@ -1,0 +1,11 @@
+.fade-up {
+  opacity: 0;
+  position: relative;
+  top: 30px;
+}
+
+.fade-left {
+  opacity: 0;
+  position: relative;
+  left: 50px;
+}
