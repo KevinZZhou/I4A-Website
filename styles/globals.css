@@ -12,8 +12,8 @@
 
 .text-box {
   padding-top: 1em;
-  padding-left: 2em;
-  padding-right: 2em;
+  padding-left: 4em;
+  padding-right: 4em;
   text-align: center;
   position: relative;
 }
@@ -22,33 +22,11 @@
   height: auto;
   width: 100%;
   object-fit: contain;
-
   border: none;
   align-items: center;
   padding-bottom: 1em;
 }
 
-.row {
-  display: flex;
-  max-width: 100%;
-}
-
-.row div, .row a {
-  flex: 1;
-}
-
-.column {
-  margin-left: auto;
-  margin-right: auto;
-}
-
-@media screen and (max-width: 1000px) {
-  .row {
-    flex-direction: column;
-    flex: auto;
-    width: 100%;
-  }
-  .column-three {
-    align-items: center;
-  }
+.center {
+  text-align: center;
 }
