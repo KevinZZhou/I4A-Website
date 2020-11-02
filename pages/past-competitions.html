@@ -5,6 +5,7 @@
     <link rel = "stylesheet" href = 
     "https://fonts.googleapis.com/css2?family=Work+Sans&display=swap">
     <link rel = "stylesheet" href = "/styles/globals.css">
+    <link rel = "stylesheet" href = "/styles/grid.css">
     <link rel = "stylesheet" href = "/styles/scripts.css">
     <link rel = "stylesheet" href = "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src = "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
@@ -16,14 +17,69 @@
     <script src = "/scripts/scripts.js"></script> 
     <script> 
     $(function(){
-      $("#head").load("bootstrap-head.html");
-      $("#foot").load("bootstrap-foot.html");  
+      $("#head").load("/pages/bootstrap-head.html");
+      $("#foot").load("/pages/bootstrap-foot.html");  
     });
     </script> 
   </head> 
 
   <body>
     <div id = "head"></div>
+
+    <div class = "container-fluid">
+      <div class = "team">
+        <div class = "row line">
+          <div class = "col-12"><h1><b> Past Competitions </b></h1></div>
+          <div class = "col-md-6 col-xs-12"><h4> Check out our past winners! 
+            </h4></div>
+          <div class = "col-md-6 col-xs-12"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class = container><hr /></div>
+    
+    <div class = "container-fluid">
+      <div id = "" class = "">
+        <div class = "row line">
+          <div class = "col-xl-4 col-md-6 col-xs-12"><div class = "profile-box">
+            <a href = "/pages/past-competitions/2019-competition.html"><div>
+              <img class = "profile" src = "/images/whitebox.png">
+              <h3><b> 2019 Competition </b></h3>
+            </div></a>
+          </div></div>
+        
+          <div class = "col-xl-4 col-md-6 col-xs-12"><div class = "profile-box">
+            <a href = "/pages/past-competitions/2018-competition.html"><div>
+              <img class = "profile" src = "/images/whitebox.png">
+              <h3><b> 2018 Competition </b></h3>
+            </div></a>
+          </div></div>
+        
+          <div class = "col-xl-4 col-md-6 col-xs-12"><div class = "profile-box">
+            <a href = "/pages/past-competitions/2017-competition.html"><div>
+              <img class = "profile" src = "/images/whitebox.png">
+              <h3><b> 2017 Competition </b></h3>
+            </div></a>
+          </div></div>
+
+          <div class = "col-xl-4 col-md-6 col-xs-12"><div class = "profile-box">
+            <a href = "/pages/past-competitions/2016-competition.html"><div>
+              <img class = "profile" src = "/images/whitebox.png">
+              <h3><b> 2016 Competition </b></h3>
+            </div></a>
+          </div></div>
+        
+          <div class = "col-xl-4 col-md-6 col-xs-12"><div class = "profile-box">
+            <a href = "/pages/past-competitions/2015-competition.html"><div>
+              <img class = "profile" src = "/images/whitebox.png">
+              <h3><b> 2015 Competition </b></h3>
+            </div></a>
+          </div></div>
+
+        </div>
+      </div>
+    </div>
 
 <!-- Gallery view of previous years? -->
 

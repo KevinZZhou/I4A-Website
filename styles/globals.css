@@ -19,9 +19,8 @@
 }
 
 .image-full {
-  height: auto;
-  width: 100%;
-  object-fit: contain;
+  max-height: 100%;
+  max-width: 100%;
   border: none;
   align-items: center;
   padding-bottom: 1em;
