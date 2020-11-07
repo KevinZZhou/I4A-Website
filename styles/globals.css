@@ -26,6 +26,20 @@
   padding-bottom: 1em;
 }
 
+.image-part {
+  max-height: 100%;
+  max-width: 100%;
+  border: none;
+  align-items: center;
+  padding-bottom: 1em;
+}
+
 .center {
   text-align: center;
+}
+
+@media only screen and (min-width: 700px) and (max-width: 1200px) {
+  .image-part {
+    max-width: 560px;
+  }
 }
