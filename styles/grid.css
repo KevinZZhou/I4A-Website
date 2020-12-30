@@ -9,7 +9,7 @@ h1 {
 
 .profile-box h3, .profile-box h5 {
   padding-left: 5%;
-  color: #000000;
+  color: black;
 }
 .desc h2 {
   padding-top: 4%;
@@ -28,10 +28,13 @@ h5 {
 }
 
 .profile-box {
-  background: #fff;
   margin-bottom: 3%;
   padding-bottom: 2%;
   border: none;
+}
+
+.profile-box img {
+  object-position: center;
 }
 
 .profile-box:hover {
@@ -48,4 +51,38 @@ h5 {
 .border-box {
   border-color: #dddddd;
   border-width: 10px;
+}
+
+.individual-page-box {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  border: none;
+}
+.individual-page-box h3, .individual-page-box h5 {
+  padding-left: 5%;
+}
+
+.individual-profile {
+  max-width: 100%;
+  padding-top: 3%;
+  padding-bottom: 2%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.surrounding-profile {
+  margin-top: 2%;
+  border: 2px solid #eeeeee; 
+  border-radius: 10px; 
+  box-shadow: 0 0 4px rgba(200, 200, 200, .4);
+  max-width: 90%;
+  margin: auto;
+}
+
+.description-profile-box {
+  max-width: 100%;
+  padding-top: 5%;
+  padding-bottom: 2%;
+  padding-left: 5%;
+  padding-right: 5%;
 }
